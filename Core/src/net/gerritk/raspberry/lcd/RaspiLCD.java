@@ -19,12 +19,18 @@ public class RaspiLCD {
     private Font font;
 
     /**
-     * Constructs a new raspi lcd object with the screen to work with.
+     * Constructs a new raspi lcd with the screen.
      *
-     * @param screen the screen to work with
+     * @param screen the screen instance to use
      */
     public RaspiLCD(Screen screen) {
+        System.out.println("RaspiLCD-K - V " + VERSION);
+        System.out.print("Initializing...  ");
+
         this.screen = screen;
+        this.screen.init();
+
+        System.out.println("[OK]");
     }
 
     /**
