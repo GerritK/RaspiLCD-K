@@ -19,12 +19,19 @@ import net.gerritk.raspberry.lcd.interfaces.Screen;
 import net.gerritk.raspberry.lcd.simulator.input.SimButton;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class RaspiLCDSimulator {
     private final RaspiLCD raspiLCD;
 
     private JFrame frame;
+    private JPanel panel;
+    private JButton btnA;
+    private JButton btnB;
+    private JButton btnC;
+    private JButton btnD;
+    private JButton btnDown;
+    private JButton btnUp;
+    private JLabel screen;
 
     /**
      * Creates a new raspi lcd simulator.
@@ -43,50 +50,47 @@ public class RaspiLCDSimulator {
             throw new IllegalArgumentException("screen of raspi lcd must be instance of sim screen!");
         }
 
+        System.out.print("Launching Simulator...  ");
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
+            e.printStackTrace();
+        }
+
         this.raspiLCD = raspiLCD;
 
         this.frame = new JFrame();
         ((SimScreen) raspiLCD.getScreen()).setFrame(frame);
 
         this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.frame.setPreferredSize(new Dimension(500, 300));
-        this.frame.setSize(frame.getPreferredSize());
         this.frame.setResizable(false);
-        this.frame.setLayout(new FlowLayout());
+        this.frame.add(panel);
 
-        this.frame.add(new JLabel(new ImageIcon(SimScreen.getInstance().getScreen())));
+        screen.setIcon(new ImageIcon(SimScreen.getInstance().getScreen()));
 
         SimButton simBtn = new SimButton(Buttons.A);
-        JButton btn = new JButton("A");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnA.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.B);
-        btn = new JButton("B");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnB.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.C);
-        btn = new JButton("C");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnC.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.D);
-        btn = new JButton("D");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnD.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.UP);
-        btn = new JButton("UP");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnUp.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.DOWN);
-        btn = new JButton("DOWN");
-        btn.addMouseListener(simBtn);
-        this.frame.add(btn);
+        btnDown.addMouseListener(simBtn);
 
+        this.frame.pack();
         this.frame.setVisible(true);
+
+        System.out.println("[OK]");
     }
 
     /**
