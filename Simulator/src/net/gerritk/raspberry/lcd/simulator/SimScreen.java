@@ -16,6 +16,7 @@ package net.gerritk.raspberry.lcd.simulator;
 import net.gerritk.raspberry.lcd.interfaces.Screen;
 import net.gerritk.raspberry.lcd.resources.Color;
 
+import javax.swing.*;
 import java.awt.image.BufferedImage;
 
 /**
@@ -30,6 +31,7 @@ public class SimScreen implements Screen {
     private int contrast;
     private int[][] framebuffer;
     private BufferedImage screen;
+    private JFrame frame;
 
     /**
      * Constructs a new simulator screen.
@@ -62,6 +64,24 @@ public class SimScreen implements Screen {
      */
     public BufferedImage getScreen() {
         return screen;
+    }
+
+    /**
+     * Sets the frame to repaint on flush.
+     *
+     * @param frame the frame to set
+     */
+    public void setFrame(JFrame frame) {
+        this.frame = frame;
+    }
+
+    /**
+     * Returns the frame to repaint on flush.
+     *
+     * @return the frame
+     */
+    public JFrame getFrame() {
+        return frame;
     }
 
     @Override
@@ -139,6 +159,10 @@ public class SimScreen implements Screen {
             for(int y = 0; y < framebuffer[x / SCALE].length * SCALE; y++) {
                 screen.setRGB(x, y, framebuffer[x / SCALE][y / SCALE] == Color.WHITE.getValue() ? 0xffffff : 0x000000);
             }
+        }
+
+        if(getFrame() != null) {
+            getFrame().repaint();
         }
     }
 }
