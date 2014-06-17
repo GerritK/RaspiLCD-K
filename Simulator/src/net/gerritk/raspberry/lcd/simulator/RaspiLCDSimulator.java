@@ -110,13 +110,4 @@ public class RaspiLCDSimulator {
     public JFrame getFrame() {
         return frame;
     }
-
-    public static void main(String[] args) {
-        RaspiLCDSimulator simulator = new RaspiLCDSimulator();
-
-        RaspiLCD raspiLCD = simulator.getRaspiLCD();
-        raspiLCD.drawRect(20, 20, 50, 50);
-        raspiLCD.drawLine(0, 0, Screen.WIDTH, Screen.HEIGHT);
-        raspiLCD.getScreen().flush();
-    }
 }
