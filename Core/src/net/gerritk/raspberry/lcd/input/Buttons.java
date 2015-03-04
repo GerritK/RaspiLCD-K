@@ -51,10 +51,10 @@ public class Buttons implements ButtonListener {
      */
     public static final int DOWN = 4;
 
-    public static final Buttons instance = new Buttons();
+    private static final Buttons instance = new Buttons();
 
-    private static ArrayList<Button> buttons = new ArrayList<>();
-    private static ArrayList<ButtonListener> listeners = new ArrayList<>();
+    private ArrayList<Button> buttons = new ArrayList<>();
+    private ArrayList<ButtonListener> listeners = new ArrayList<>();
 
     /**
      * Adds the button to the list.
@@ -67,7 +67,12 @@ public class Buttons implements ButtonListener {
             throw new IllegalArgumentException("button code already registered!");
         }
 
-        return buttons.add(button);
+        boolean result = instance.buttons.add(button);
+        if(result) {
+            button.addListener(instance);
+        }
+
+        return result;
     }
 
     /**
@@ -77,7 +82,12 @@ public class Buttons implements ButtonListener {
      * @return <code>true</code> if the button exists in the list; <code>false</code> otherwise
      */
     public static boolean removeButton(Button button) {
-        return buttons.remove(button);
+        boolean result = instance.buttons.remove(button);
+        if(result) {
+            button.removeListener(instance);
+        }
+
+        return result;
     }
 
     /**
@@ -98,13 +108,33 @@ public class Buttons implements ButtonListener {
      * @return the button with the code
      */
     public static Button getButton(int code) {
-        for(Button button : buttons) {
+        for(Button button : instance.buttons) {
             if(button.getCode() == code) {
                 return button;
             }
         }
 
         return null;
+    }
+
+    /**
+     * Adds the button listener to the list of listeners.
+     *
+     * @param listener the listener to add
+     * @return <code>true</code> if the button could be added and was not registered before; <code>false</code> otherwise
+     */
+    public static boolean addListener(ButtonListener listener) {
+        return !instance.listeners.contains(listener) && instance.listeners.add(listener);
+    }
+
+    /**
+     * Removes the listener from the list of listeneres.
+     *
+     * @param listener the listener to remove
+     * @return <code>true</code> if the button could be removed; <code>false</code> otherwise
+     */
+    public static boolean removeListener(ButtonListener listener) {
+        return instance.listeners.remove(listener);
     }
 
     @Override

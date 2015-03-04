@@ -25,20 +25,36 @@ import net.gerritk.raspberry.lcd.simulator.SimScreen;
 
 import java.awt.*;
 
-public class RaspiLCDDemo implements Runnable {
+public class RaspiLCDDemo implements Runnable, ButtonListener {
     private final RaspiLCD raspiLCD;
 
     private Point point = new Point(100, 50);
+    private boolean running;
 
     public RaspiLCDDemo(RaspiLCD raspiLCD) {
         this.raspiLCD = raspiLCD;
 
+        Buttons.addListener(this);
+
+        this.running = true;
         new Thread(this).start();
     }
 
     @Override
     public void run() {
+        long last;
 
+        while(running) {
+            last = System.currentTimeMillis();
+
+            raspiLCD.getScreen().clear();
+            raspiLCD.getScreen().setPixel(point.x, point.y, Color.BLACK);
+            raspiLCD.getScreen().flush();
+
+            while(System.currentTimeMillis() - last < 250) {
+                Thread.yield();
+            }
+        }
     }
 
     public RaspiLCD getRaspiLCD() {
@@ -59,5 +75,24 @@ public class RaspiLCDDemo implements Runnable {
         }
 
         new RaspiLCDDemo(raspiLCD);
+    }
+
+    @Override
+    public void onButtonPressed(ButtonEvent e) {
+        if(e.getButtonCode() == Buttons.UP) {
+            point.y -= 1;
+        } else if(e.getButtonCode() == Buttons.DOWN) {
+            point.y += 1;
+        }
+    }
+
+    @Override
+    public void onButtonReleased(ButtonEvent e) {
+
+    }
+
+    @Override
+    public void onButtonChanged(ButtonEvent e) {
+
     }
 }
