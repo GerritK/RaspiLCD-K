@@ -15,7 +15,6 @@ package net.gerritk.raspberry.lcd.simulator;
 
 import net.gerritk.raspberry.lcd.RaspiLCD;
 import net.gerritk.raspberry.lcd.input.Buttons;
-import net.gerritk.raspberry.lcd.interfaces.Screen;
 import net.gerritk.raspberry.lcd.simulator.input.SimButton;
 
 import javax.swing.*;
@@ -68,23 +67,30 @@ public class RaspiLCDSimulator {
         this.frame.add(panel);
 
         screen.setIcon(new ImageIcon(SimScreen.getInstance().getScreen()));
+		screen.setBorder(BorderFactory.createEtchedBorder());
 
         SimButton simBtn = new SimButton(Buttons.A);
+		btnA.setFocusPainted(false);
         btnA.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.B);
+		btnB.setFocusPainted(false);
         btnB.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.C);
+		btnC.setFocusPainted(false);
         btnC.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.D);
+		btnD.setFocusPainted(false);
         btnD.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.UP);
+		btnUp.setFocusPainted(false);
         btnUp.addMouseListener(simBtn);
 
         simBtn = new SimButton(Buttons.DOWN);
+		btnDown.setFocusPainted(false);
         btnDown.addMouseListener(simBtn);
 
         this.frame.pack();
