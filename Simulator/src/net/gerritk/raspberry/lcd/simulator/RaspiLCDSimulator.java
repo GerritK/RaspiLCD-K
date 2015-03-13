@@ -59,7 +59,7 @@ public class RaspiLCDSimulator {
 
         this.raspiLCD = raspiLCD;
 
-        this.frame = new JFrame();
+        this.frame = new JFrame("RaspiLCD-K Simulator");
         ((SimScreen) raspiLCD.getScreen()).setFrame(frame);
 
         this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
