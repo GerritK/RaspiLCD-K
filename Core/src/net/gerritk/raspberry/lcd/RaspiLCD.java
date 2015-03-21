@@ -1,3 +1,16 @@
+/*
+ * RaspiLCD-K
+ * Module: Core
+ *
+ * RaspiLCD.java
+ *
+ * Author: Gerrit Kaul
+ * Date: 21.03.2015
+ *
+ * Copyright (c) 2015 - K.Design
+ * All rights reserved
+ */
+
 package net.gerritk.raspberry.lcd;
 
 import net.gerritk.raspberry.lcd.interfaces.Font;
