@@ -37,7 +37,7 @@ public class ByteFont implements Font {
 						int dx = x + xb;
 						int dy = y + yb * 8 + bit;
 
-						if(dx < Screen.WIDTH && dy < Screen.HEIGHT && yb * 8 + bit < getHeight()) {
+						if(dx >= 0 && dy >= 0 && dx < Screen.WIDTH && dy < Screen.HEIGHT && yb * 8 + bit < getHeight()) {
 							if (((b >> bit) & 1) == 1) {
 								lcd.getScreen().setPixel(dx, dy, lcd.getPenColor());
 							}
