@@ -1,0 +1,1208 @@
+META_BEGIN
+  SIZE 10
+  NAME Wendy
+  STYLE 0
+  HEIGHT 11
+META_END
+
+BEGIN 0
+  b8;0
+  0;0
+END
+BEGIN 1
+  b8;0
+  0;0
+END
+BEGIN 2
+  b8;0
+  0;0
+END
+BEGIN 3
+  b8;0
+  0;0
+END
+BEGIN 4
+  b8;0
+  0;0
+END
+BEGIN 5
+  b8;0
+  0;0
+END
+BEGIN 6
+  b8;0
+  0;0
+END
+BEGIN 7
+  b8;0
+  0;0
+END
+BEGIN 8
+  b8;0
+  0;0
+END
+BEGIN 11
+  b8;0
+  0;0
+END
+BEGIN 12
+  b8;0
+  0;0
+END
+BEGIN 14
+  b8;0
+  0;0
+END
+BEGIN 15
+  b8;0
+  0;0
+END
+BEGIN 16
+  b8;0
+  0;0
+END
+BEGIN 17
+  b8;0
+  0;0
+END
+BEGIN 18
+  b8;0
+  0;0
+END
+BEGIN 19
+  b8;0
+  0;0
+END
+BEGIN 20
+  b8;0
+  0;0
+END
+BEGIN 21
+  b8;0
+  0;0
+END
+BEGIN 22
+  b8;0
+  0;0
+END
+BEGIN 23
+  b8;0
+  0;0
+END
+BEGIN 24
+  b8;0
+  0;0
+END
+BEGIN 25
+  b8;0
+  0;0
+END
+BEGIN 26
+  b8;0
+  0;0
+END
+BEGIN 27
+  b8;0
+  0;0
+END
+BEGIN 28
+  b8;0
+  0;0
+END
+BEGIN 29
+  b8;0
+  0;0
+END
+BEGIN 30
+  b8;0
+  0;0
+END
+BEGIN 31
+  b8;0
+  0;0
+END
+BEGIN 32
+  0;0
+  0;0
+END
+BEGIN 33
+  b8;0
+  0;0
+END
+BEGIN 34
+  18;0
+  0;0
+  18;0
+  0;0
+END
+BEGIN 35
+  c0;0
+  f8;0
+  8;0
+  c8;0
+  f8;0
+  0;0
+END
+BEGIN 36
+  b8;0
+  fc;1
+  e8;0
+  0;0
+END
+BEGIN 37
+  90;0
+  40;0
+  20;0
+  90;0
+  0;0
+END
+BEGIN 38
+  20;0
+  70;0
+  20;0
+  0;0
+END
+BEGIN 39
+  18;0
+  0;0
+END
+BEGIN 40
+  70;0
+  88;0
+  0;0
+END
+BEGIN 41
+  88;0
+  70;0
+  0;0
+END
+BEGIN 42
+  10;0
+  38;0
+  78;0
+  f0;0
+  78;0
+  38;0
+  10;0
+  0;0
+END
+BEGIN 43
+  20;0
+  70;0
+  20;0
+  0;0
+END
+BEGIN 44
+  80;1
+  0;0
+END
+BEGIN 45
+  20;0
+  20;0
+  20;0
+  0;0
+END
+BEGIN 46
+  80;0
+  0;0
+END
+BEGIN 47
+  c0;0
+  20;0
+  18;0
+  0;0
+  0;0
+  0;0
+END
+BEGIN 48
+  f8;0
+  88;0
+  f8;0
+  0;0
+END
+BEGIN 49
+  f8;0
+  0;0
+  0;0
+END
+BEGIN 50
+  e8;0
+  a8;0
+  b8;0
+  0;0
+END
+BEGIN 51
+  a8;0
+  a8;0
+  f8;0
+  0;0
+END
+BEGIN 52
+  78;0
+  40;0
+  f0;0
+  0;0
+END
+BEGIN 53
+  b8;0
+  a8;0
+  e8;0
+  0;0
+END
+BEGIN 54
+  f8;0
+  a8;0
+  e8;0
+  0;0
+END
+BEGIN 55
+  8;0
+  8;0
+  f8;0
+  0;0
+END
+BEGIN 56
+  f8;0
+  a8;0
+  f8;0
+  0;0
+END
+BEGIN 57
+  b8;0
+  a8;0
+  f8;0
+  0;0
+END
+BEGIN 58
+  a0;0
+  0;0
+END
+BEGIN 59
+  a0;1
+  0;0
+END
+BEGIN 60
+  20;0
+  50;0
+  88;0
+  0;0
+END
+BEGIN 61
+  50;0
+  50;0
+  0;0
+END
+BEGIN 62
+  88;0
+  50;0
+  20;0
+  0;0
+END
+BEGIN 63
+  b4;0
+  14;0
+  1c;0
+  0;0
+END
+BEGIN 64
+  fc;0
+  84;0
+  b4;0
+  a4;0
+  bc;0
+END
+BEGIN 65
+  f8;0
+  28;0
+  f8;0
+  0;0
+END
+BEGIN 66
+  f8;0
+  a8;0
+  d8;0
+  0;0
+END
+BEGIN 67
+  f8;0
+  88;0
+  88;0
+  0;0
+END
+BEGIN 68
+  f8;0
+  88;0
+  70;0
+  0;0
+END
+BEGIN 69
+  f8;0
+  a8;0
+  a8;0
+  0;0
+END
+BEGIN 70
+  f8;0
+  28;0
+  8;0
+  0;0
+END
+BEGIN 71
+  f8;0
+  88;0
+  e8;0
+  0;0
+END
+BEGIN 72
+  f8;0
+  20;0
+  f8;0
+  0;0
+END
+BEGIN 73
+  f8;0
+  0;0
+END
+BEGIN 74
+  80;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 75
+  f8;0
+  20;0
+  d8;0
+  0;0
+END
+BEGIN 76
+  f8;0
+  80;0
+  80;0
+  0;0
+END
+BEGIN 77
+  f8;0
+  8;0
+  70;0
+  8;0
+  f8;0
+  0;0
+END
+BEGIN 78
+  f8;0
+  8;0
+  f8;0
+  0;0
+END
+BEGIN 79
+  f8;0
+  88;0
+  f8;0
+  0;0
+END
+BEGIN 80
+  f8;0
+  28;0
+  38;0
+  0;0
+END
+BEGIN 81
+  38;0
+  28;0
+  f8;0
+  0;0
+END
+BEGIN 82
+  f8;0
+  28;0
+  d8;0
+  0;0
+END
+BEGIN 83
+  b8;0
+  a8;0
+  e8;0
+  0;0
+END
+BEGIN 84
+  8;0
+  f8;0
+  8;0
+  0;0
+END
+BEGIN 85
+  f8;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 86
+  78;0
+  80;0
+  78;0
+  0;0
+END
+BEGIN 87
+  f8;0
+  80;0
+  60;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 88
+  d8;0
+  20;0
+  d8;0
+  0;0
+END
+BEGIN 89
+  b8;0
+  a0;0
+  f8;0
+  0;0
+END
+BEGIN 90
+  c8;0
+  a8;0
+  98;0
+  0;0
+END
+BEGIN 91
+  f8;0
+  88;0
+  0;0
+END
+BEGIN 92
+  18;0
+  20;0
+  c0;0
+  0;0
+  0;0
+  0;0
+END
+BEGIN 93
+  88;0
+  f8;0
+  0;0
+END
+BEGIN 94
+  b8;0
+  0;0
+END
+BEGIN 95
+  80;0
+  80;0
+  80;0
+  0;0
+END
+BEGIN 96
+  b8;0
+  0;0
+END
+BEGIN 97
+  f8;0
+  28;0
+  f8;0
+  0;0
+END
+BEGIN 98
+  f8;0
+  a8;0
+  d8;0
+  0;0
+END
+BEGIN 99
+  f8;0
+  88;0
+  88;0
+  0;0
+END
+BEGIN 100
+  f8;0
+  88;0
+  70;0
+  0;0
+END
+BEGIN 101
+  f8;0
+  a8;0
+  a8;0
+  0;0
+END
+BEGIN 102
+  f8;0
+  28;0
+  8;0
+  0;0
+END
+BEGIN 103
+  f8;0
+  88;0
+  e8;0
+  0;0
+END
+BEGIN 104
+  f8;0
+  20;0
+  f8;0
+  0;0
+END
+BEGIN 105
+  f8;0
+  0;0
+END
+BEGIN 106
+  80;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 107
+  f8;0
+  20;0
+  d8;0
+  0;0
+END
+BEGIN 108
+  f8;0
+  80;0
+  80;0
+  0;0
+END
+BEGIN 109
+  f8;0
+  8;0
+  70;0
+  8;0
+  f8;0
+  0;0
+END
+BEGIN 110
+  f8;0
+  8;0
+  f8;0
+  0;0
+END
+BEGIN 111
+  f8;0
+  88;0
+  f8;0
+  0;0
+END
+BEGIN 112
+  f8;0
+  28;0
+  38;0
+  0;0
+END
+BEGIN 113
+  38;0
+  28;0
+  f8;0
+  0;0
+END
+BEGIN 114
+  f8;0
+  28;0
+  d8;0
+  0;0
+END
+BEGIN 115
+  b8;0
+  a8;0
+  e8;0
+  0;0
+END
+BEGIN 116
+  8;0
+  f8;0
+  8;0
+  0;0
+END
+BEGIN 117
+  f8;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 118
+  78;0
+  80;0
+  78;0
+  0;0
+END
+BEGIN 119
+  f8;0
+  80;0
+  60;0
+  80;0
+  f8;0
+  0;0
+END
+BEGIN 120
+  d8;0
+  20;0
+  d8;0
+  0;0
+END
+BEGIN 121
+  b8;0
+  a0;0
+  f8;0
+  0;0
+END
+BEGIN 122
+  c8;0
+  a8;0
+  98;0
+  0;0
+END
+BEGIN 123
+  b8;0
+  0;0
+END
+BEGIN 124
+  fc;1
+  0;0
+END
+BEGIN 125
+  b8;0
+  0;0
+END
+BEGIN 126
+  20;0
+  10;0
+  20;0
+  10;0
+  0;0
+END
+BEGIN 127
+  b8;0
+  0;0
+END
+BEGIN 128
+  b8;0
+  0;0
+END
+BEGIN 129
+  b8;0
+  0;0
+END
+BEGIN 130
+  b8;0
+  0;0
+END
+BEGIN 131
+  b8;0
+  0;0
+END
+BEGIN 132
+  b8;0
+  0;0
+END
+BEGIN 133
+  b8;0
+  0;0
+END
+BEGIN 134
+  b8;0
+  0;0
+END
+BEGIN 135
+  b8;0
+  0;0
+END
+BEGIN 136
+  b8;0
+  0;0
+END
+BEGIN 137
+  b8;0
+  0;0
+END
+BEGIN 138
+  b8;0
+  0;0
+END
+BEGIN 139
+  b8;0
+  0;0
+END
+BEGIN 140
+  b8;0
+  0;0
+END
+BEGIN 141
+  b8;0
+  0;0
+END
+BEGIN 142
+  b8;0
+  0;0
+END
+BEGIN 143
+  b8;0
+  0;0
+END
+BEGIN 144
+  b8;0
+  0;0
+END
+BEGIN 145
+  b8;0
+  0;0
+END
+BEGIN 146
+  b8;0
+  0;0
+END
+BEGIN 147
+  b8;0
+  0;0
+END
+BEGIN 148
+  b8;0
+  0;0
+END
+BEGIN 149
+  b8;0
+  0;0
+END
+BEGIN 150
+  b8;0
+  0;0
+END
+BEGIN 151
+  b8;0
+  0;0
+END
+BEGIN 152
+  b8;0
+  0;0
+END
+BEGIN 153
+  b8;0
+  0;0
+END
+BEGIN 154
+  b8;0
+  0;0
+END
+BEGIN 155
+  b8;0
+  0;0
+END
+BEGIN 156
+  b8;0
+  0;0
+END
+BEGIN 157
+  b8;0
+  0;0
+END
+BEGIN 158
+  b8;0
+  0;0
+END
+BEGIN 159
+  b8;0
+  0;0
+END
+BEGIN 160
+  b8;0
+  0;0
+END
+BEGIN 161
+  b8;0
+  0;0
+END
+BEGIN 162
+  b8;0
+  0;0
+END
+BEGIN 163
+  b8;0
+  0;0
+END
+BEGIN 164
+  b8;0
+  0;0
+END
+BEGIN 165
+  b8;0
+  0;0
+END
+BEGIN 166
+  b8;0
+  0;0
+END
+BEGIN 167
+  b8;0
+  0;0
+END
+BEGIN 168
+  b8;0
+  0;0
+END
+BEGIN 169
+  b8;0
+  0;0
+END
+BEGIN 170
+  b8;0
+  0;0
+END
+BEGIN 171
+  b8;0
+  0;0
+END
+BEGIN 172
+  b8;0
+  0;0
+END
+BEGIN 173
+  b8;0
+  0;0
+END
+BEGIN 174
+  b8;0
+  0;0
+END
+BEGIN 175
+  b8;0
+  0;0
+END
+BEGIN 176
+  b8;0
+  0;0
+END
+BEGIN 177
+  b8;0
+  0;0
+END
+BEGIN 178
+  b8;0
+  0;0
+END
+BEGIN 179
+  b8;0
+  0;0
+END
+BEGIN 180
+  b8;0
+  0;0
+END
+BEGIN 181
+  b8;0
+  0;0
+END
+BEGIN 182
+  b8;0
+  0;0
+END
+BEGIN 183
+  b8;0
+  0;0
+END
+BEGIN 184
+  b8;0
+  0;0
+END
+BEGIN 185
+  b8;0
+  0;0
+END
+BEGIN 186
+  b8;0
+  0;0
+END
+BEGIN 187
+  b8;0
+  0;0
+END
+BEGIN 188
+  b8;0
+  0;0
+END
+BEGIN 189
+  b8;0
+  0;0
+END
+BEGIN 190
+  b8;0
+  0;0
+END
+BEGIN 191
+  b8;0
+  0;0
+END
+BEGIN 192
+  b8;0
+  0;0
+END
+BEGIN 193
+  b8;0
+  0;0
+END
+BEGIN 194
+  b8;0
+  0;0
+END
+BEGIN 195
+  b8;0
+  0;0
+END
+BEGIN 196
+  fa;0
+  28;0
+  fa;0
+  0;0
+END
+BEGIN 197
+  b8;0
+  0;0
+END
+BEGIN 198
+  b8;0
+  0;0
+END
+BEGIN 199
+  b8;0
+  0;0
+END
+BEGIN 200
+  b8;0
+  0;0
+END
+BEGIN 201
+  b8;0
+  0;0
+END
+BEGIN 202
+  b8;0
+  0;0
+END
+BEGIN 203
+  b8;0
+  0;0
+END
+BEGIN 204
+  b8;0
+  0;0
+END
+BEGIN 205
+  b8;0
+  0;0
+END
+BEGIN 206
+  b8;0
+  0;0
+END
+BEGIN 207
+  b8;0
+  0;0
+END
+BEGIN 208
+  b8;0
+  0;0
+END
+BEGIN 209
+  b8;0
+  0;0
+END
+BEGIN 210
+  b8;0
+  0;0
+END
+BEGIN 211
+  b8;0
+  0;0
+END
+BEGIN 212
+  b8;0
+  0;0
+END
+BEGIN 213
+  b8;0
+  0;0
+END
+BEGIN 214
+  fa;0
+  88;0
+  fa;0
+  0;0
+END
+BEGIN 215
+  b8;0
+  0;0
+END
+BEGIN 216
+  b8;0
+  0;0
+END
+BEGIN 217
+  b8;0
+  0;0
+END
+BEGIN 218
+  b8;0
+  0;0
+END
+BEGIN 219
+  b8;0
+  0;0
+END
+BEGIN 220
+  fa;0
+  80;0
+  fa;0
+  0;0
+END
+BEGIN 221
+  b8;0
+  0;0
+END
+BEGIN 222
+  b8;0
+  0;0
+END
+BEGIN 223
+  b8;0
+  0;0
+END
+BEGIN 224
+  b8;0
+  0;0
+END
+BEGIN 225
+  b8;0
+  0;0
+END
+BEGIN 226
+  b8;0
+  0;0
+END
+BEGIN 227
+  b8;0
+  0;0
+END
+BEGIN 228
+  fa;0
+  28;0
+  fa;0
+  0;0
+END
+BEGIN 229
+  b8;0
+  0;0
+END
+BEGIN 230
+  b8;0
+  0;0
+END
+BEGIN 231
+  b8;0
+  0;0
+END
+BEGIN 232
+  b8;0
+  0;0
+END
+BEGIN 233
+  b8;0
+  0;0
+END
+BEGIN 234
+  b8;0
+  0;0
+END
+BEGIN 235
+  b8;0
+  0;0
+END
+BEGIN 236
+  b8;0
+  0;0
+END
+BEGIN 237
+  b8;0
+  0;0
+END
+BEGIN 238
+  b8;0
+  0;0
+END
+BEGIN 239
+  b8;0
+  0;0
+END
+BEGIN 240
+  b8;0
+  0;0
+END
+BEGIN 241
+  b8;0
+  0;0
+END
+BEGIN 242
+  b8;0
+  0;0
+END
+BEGIN 243
+  b8;0
+  0;0
+END
+BEGIN 244
+  b8;0
+  0;0
+END
+BEGIN 245
+  b8;0
+  0;0
+END
+BEGIN 246
+  fa;0
+  88;0
+  fa;0
+  0;0
+END
+BEGIN 247
+  b8;0
+  0;0
+END
+BEGIN 248
+  b8;0
+  0;0
+END
+BEGIN 249
+  b8;0
+  0;0
+END
+BEGIN 250
+  b8;0
+  0;0
+END
+BEGIN 251
+  b8;0
+  0;0
+END
+BEGIN 252
+  fa;0
+  80;0
+  fa;0
+  0;0
+END
+BEGIN 253
+  b8;0
+  0;0
+END
+BEGIN 254
+  b8;0
+  0;0
+END
+BEGIN 255
+  b8;0
+  0;0
+END
