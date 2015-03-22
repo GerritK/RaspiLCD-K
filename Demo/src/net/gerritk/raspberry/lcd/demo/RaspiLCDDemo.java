@@ -180,7 +180,13 @@ public class RaspiLCDDemo implements ButtonListener, Runnable {
 					if(tempLog[i - 1] == 0) {
 						tempLog[i] = (float) Math.random() * 10 + 45;
 					} else {
-						tempLog[i] = (float) (tempLog[i - 1] + (Math.random() * 3) - 1.5f);
+						float move = 1.5f;
+						if(tempLog[i - 1] < 30) {
+							move = -3f;
+						} else if(tempLog[i - 1] > 70) {
+							move = 3f;
+						}
+						tempLog[i] = (float) (tempLog[i - 1] + (Math.random() * 3) - move);
 					}
 				}
 			}
